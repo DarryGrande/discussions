@@ -1,0 +1,34 @@
+<html>
+
+
+<body>
+<script>
+var url = "https://random.dog/woof.json";
+				fetch(url)
+				.then(response => response.json())
+				.then(data => {			
+			
+				document.write(data.url);
+				var p = data.length;
+				
+				
+		        });
+				
+
+
+var url2 ="https://www.stands4.com/services/v2/poetry.php";
+				fetch(url2)
+				.then(response => response.json())
+				.then(data => {			
+			
+				document.write(data.url);
+				var p = data.length;
+				
+				
+		        });
+</script>
+<p id="demo"></p>
+
+</body>
+
+</html>
